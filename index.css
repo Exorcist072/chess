@@ -1,0 +1,40 @@
+body{
+    background-image: url("./assets/p.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+  h1{
+    text-align: center;
+    color: aliceblue;
+  }
+  tr,td{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+  }
+  table{
+    border-collapse: collapse;
+    box-shadow: 15px;
+  }
+  .white{
+    background-color:white ;
+    text-align: center;
+  }
+  .black{
+    background-color: black;
+  }
+  td:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+  }
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .a{
+    align-items: center;
+    padding: 30px;
+  }
